@@ -4,6 +4,8 @@
 # @app.route('/')
 # def hello_world():
 #     return 'Hello, World!'
+import os
+S2_API_KEY = os.environ.get('S2_API_KEY')
 from typing import Any, Dict, List, Set, Tuple
 import re
 import requests
