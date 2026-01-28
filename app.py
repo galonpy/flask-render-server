@@ -119,7 +119,7 @@ def find_paper_citations():
         citations_url = f"{S2_BASE}/paper/{paper_id}/citations"
         citations_params = {
             "fields": "citingPaper.authors,citingPaper.title", #current experiment
-            "limit": 80 #api limit reached here
+            "limit": 4 #api limit reached here
         }
         #[{"citingPaper": {"paperId": "c5633cd7829d812ca1e2d316f07d048d726be023",
         # # "title": "TrojanPraise: Jailbreak LLMs via Benign Fine-Tuning", 
